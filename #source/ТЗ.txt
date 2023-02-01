@@ -1,0 +1,67 @@
+	делать блок(с названием блока) а внутирь еще один блок для того чтобы все было по середине
+
+1.Футер
+	Футер бг кольор
+	флексом все 
+	высота 65пикселей
+2.Хедер
+	флекс все 
+	бг кольор
+	падинг сверху снизу 50 пкс
+		титул фонт сайз 60пкс
+		лайн хайт 22 
+		падинг 36 пкс
+		марджин 15 пкс
+		флажок через бг 
+	непонял где добавить падинг справа 30 пкс
+3.Третий блок с картинкой
+	сделать два класса для тайтла (все 3 тайтла одинаковые)
+	падинг сверху снизу 50пкс
+	картинке нельзя увеличиватся или уменьшатся (flex: 0 0 430px) 430px ширина картинки
+	тексту разрешить ростягиватся (flex: 1 1 auto)
+	дать классу img (max-width: 100%) для того чтоб картинка не была больше 430пкс даже если будет
+	сделать падинг 38пкс между текстом и картинкой
+4.Четвертый блок флекс в флексе
+	делать 4 колонки 
+		<div class="columns__row">
+							<div class="columns__column">
+								<div class="columns__item item">
+									<div class="item__row">
+										<div class="item__image"><img src="img/image_3.jpg" alt=""></div>
+										<div class="item__body">
+											<div class="item__title">The description for the image</div>
+											<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="columns__column">
+								<div class="columns__item item">
+									<div class="item__row">
+										<div class="item__image"><img src="img/image_3.jpg" alt=""></div>
+										<div class="item__body">
+											<div class="item__title">The description for the image</div>
+											<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+	тайтл через текст елайн центр
+	запрещаем колонке увеличиватся , разрешаем уменьшатся задаем размер 50% 
+	блоку с картинкой запрещаем увеличиватся и уменьшатся ставим размер 200пкс
+	боду все дозволено размер ауто 
+	в див колум ров делаем марджин -8 с лева и права
+	в див колумс колум делаем падинг 8 с лева и права
+5.Последний блок
+	сначала дефолтная коробочка потом еще раз делаем коробочку с размером 990пкс
+	запрещаем увеличиватся разрешаем уменьшатся 33.333% размер
+	бордер радиус 5пкс
+	сделать бордер
+	в див вертикал ров делаем марджин -22.5 с лева и права
+	в див вертикал колум делаем падинг 22.5 с лева и права
+	суб тайтл падинг 15пкс сверху снизу
+	добавить флекс к колумн вертикал для того чтобы колонки стали одного размера
+	добавить flex direction: column; чтобы сделать колонками и добавить flex 1 1 auto чтобы притянуть кнопочки к низу
+	
+	
